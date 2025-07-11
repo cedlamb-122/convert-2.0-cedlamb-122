@@ -1,6 +1,6 @@
 """
 Main script for cryptocurrency price prediction using ridge regression.
-This script loads data, creates features, trains a model, and evaluates performance.
+Script loads data, creates features, trains a model, and evaluates performance.
 """
 
 from sklearn_crypto_pipeline import CryptoPricePipeline

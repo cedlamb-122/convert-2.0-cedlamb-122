@@ -1,6 +1,6 @@
 """
 Data loading utilities for cryptocurrency price prediction.
-This handles loading and preprocessing of cryptocurrency data from CSV files.
+Handles loading and preprocessing of cryptocurrency data from CSV files.
 """
 
 import pandas as pd # pylint: disable=import-error
