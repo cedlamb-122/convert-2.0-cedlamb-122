@@ -1,6 +1,6 @@
 """
 Scikit-learn pipeline for cryptocurrency price prediction using ridge regression.
-Contains the main pipeline class for feature engineering, model training, and evaluation.
+Contains main pipeline class for feature engineering, model training, and evaluation.
 """
 
 import numpy as np

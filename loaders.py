@@ -1,6 +1,6 @@
 """
 Data loading utilities for cryptocurrency price prediction.
-Handles loading and preprocessing of cryptocurrency data from CSV files.
+It handles loading and preprocessing of cryptocurrency data from CSV files.
 """
 
 import pandas as pd
