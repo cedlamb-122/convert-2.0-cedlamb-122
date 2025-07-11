@@ -12,11 +12,9 @@ def main():
     """
     # Load the data
     data = load_crypto_data('data.csv')
-    
     # Create and run the pipeline
     pipeline = CryptoPricePipeline()
     metrics = pipeline.fit_predict(data)
-    
     # Print the metrics
     print("=== Cryptocurrency Price Prediction Results ===")
     print(f"Train Score (R²): {metrics['train_score']:.4f}")
@@ -26,3 +24,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
